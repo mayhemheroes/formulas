@@ -1,0 +1,9 @@
+project: udatetime
+target: fuzz-time
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_time.py
+    libfuzzer: true
+    timeout: 12
