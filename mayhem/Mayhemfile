@@ -1,0 +1,7 @@
+project: formulas
+target: fuzz-time
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/fuzz-time
+    libfuzzer: true
